@@ -17,6 +17,7 @@
 
 
 body{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ddd;
   color: rgba(0, 0, 0, 1);
 }
@@ -24,6 +25,14 @@ body{
 p{
   text-align: justify;
   text-indent: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: #606060;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 #interface{
@@ -175,7 +184,27 @@ p{
   display: block;
   width: 40%;
   float: right;
+  background-color: #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
+#lateral h1{
+  font-family: 'Fonte-logo';
+  font-size: 20pt;
+  color: #606060;
+  margin: 0px ;
+}
+
+#lateral h2{
+  margin: 0px 0px 10px 0px;
+  background-color: #606060;
+  font-size: 13pt;
+  color: #fff;
+  padding: 5px;
+}
+
 
 #rodape{
   clear: both;
@@ -183,4 +212,38 @@ p{
 }
 #rodape p {
   text-align: center;
+}
+
+#noticia-principal h2{
+  font-size: 12pt;
+  color: #606060;
+  background-color: #dddddd;
+  padding: 5px 0px 5px 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+#cabecalho-artigo h1{
+  font-family: 'Fonte-logo',sans-serif;
+  font-size: 20pt;
+  color: #606060;
+  margin-bottom: 0px;
+}
+
+#cabecalho-artigo h2{
+  font-family: 'Fonte-logo',sans-serif;
+  font-size: 13pt;
+  color: rgba(0, 0, 0, 0.4);
+  background: none;
+  margin: 0px;
+}
+
+#cabecalho-artigo h3{
+  font-family: 'Fonte-logo',sans-serif;
+  font-size: 12pt;
+  color: #606060;
+  margin: 0px;
+}
+
+.direita{
+  text-align: right;
 }
